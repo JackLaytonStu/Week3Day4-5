@@ -1,0 +1,127 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+body {
+    background-image: url(images/veggies.jpg);
+    background-color: #fff5c7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    backdrop-filter: brightness(80%);
+    margin-bottom: auto;
+    
+}
+h2 {
+    font-size: 24px;
+}
+#header {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 0px;
+    border-bottom: 0cm;
+    padding-top: 30px;
+    font-family: "Inconsolata", verdana, sans-serif;
+}
+#line1 hr {
+    margin: 0px 36px;
+    width: 1280px;
+    
+}
+.title {
+    
+    color: #fff;
+    padding: 0px 0px 5px 36px;
+}
+.nav {
+   
+    color: #fff;
+    padding: 0px 36px 5px 0px;
+    
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+#spread {
+    text-align: center;
+    padding: 110px 0px 280px 0px;
+    color: #fff;
+    font-family: "Inconsolata", verdana, sans-serif;
+}
+#spread h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+#spread hr {
+    width: 450px;
+    color: #fff;
+}
+#spread h3 {
+    font-size: 32px;
+}
+#content {
+    font-family: "Inconsolata", verdana, sans-serif;
+}
+#content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0px 40px 20px 40px;
+}
+#content p {
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: lighter;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    background-color: black;
+    margin: 0px 0px;
+    max-height: 400px;
+    align-items: center;
+  }
+  .responsive {
+    max-width: 600px;
+    max-height: 400px;
+    height: fit-content;
+    color: #fff;
+  }
+  
+  .right {
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start center;
+    color: #fff;
+    flex-direction: column;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #222;
+    max-height: 400px;
+    align-items: center;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #444;
+    max-height: 400px;
+    align-items: center;
+  }
